@@ -1,6 +1,6 @@
 #SSL
 Sintaxis y semántica de los lenguajes
-K2051
-2022
-1761936
-Penna, Nicolas Santiago
+Curso: K2051
+Año de cursada: 2022
+Legajo: 1761936
+Nombre y Apellido: Penna, Nicolas Santiago
