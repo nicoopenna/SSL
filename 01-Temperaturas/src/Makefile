@@ -4,7 +4,7 @@ CFLAGS = -Wall
 OBJS = TablasDeConversion.o Conversion.o
 $(TARGET): $(OBJS)
 	@gcc $(CFLAGS) $(OBJS) -o $(TARGET)
-$(OBJ_DIR)\%.o : %.c
+%.o : %.c
 	gcc -c -MD $(CFLAGS) $(CPPFLAGS) $< -o $@
 
 -include *.d
