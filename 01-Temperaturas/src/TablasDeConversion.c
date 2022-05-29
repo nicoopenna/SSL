@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "Conversion.h"
-void TablaFarenheit();
-void TablaCelcius();
+void PrintTablaFarenheit();
+void PrintTablaCelcius();
 int main(void)
 {
     PrintTablaFarenheit();
@@ -19,7 +19,6 @@ void PrintTablaFarenheit()
     {
         printf("%5.0f %9.0f\n", fahr, Celcius(fahr));
     }
-    return;
 }
 void PrintTablaCelcius(){
     const int LOWER = 0;
